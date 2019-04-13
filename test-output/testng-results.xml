@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite name : Smoke" duration-ms="15158" started-at="2019-03-16T06:28:08Z" finished-at="2019-03-16T06:28:23Z">
+    <groups>
+    </groups>
+    <test name="Test Name : My TestNG practices" duration-ms="15158" started-at="2019-03-16T06:28:08Z" finished-at="2019-03-16T06:28:23Z">
+      <class name="com.demo.test.Demo">
+        <test-method status="PASS" signature="initilizeSuite()[pri:0, instance:com.demo.test.Demo@1a968a59]" name="initilizeSuite" is-config="true" duration-ms="204" started-at="2019-03-16T06:28:08Z" finished-at="2019-03-16T06:28:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeSuite -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.demo.test.Demo@1a968a59]" name="beforeMethod" is-config="true" duration-ms="10728" started-at="2019-03-16T06:28:08Z" finished-at="2019-03-16T06:28:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UAT]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[public void com.demo.test.Demo.login()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.demo.test.Demo@1a968a59]" name="login" duration-ms="52" started-at="2019-03-16T06:28:19Z" finished-at="2019-03-16T06:28:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.demo.test.Demo@1a968a59]" name="afterMethod" is-config="true" duration-ms="4331" started-at="2019-03-16T06:28:19Z" finished-at="2019-03-16T06:28:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="cleanUpSuites()[pri:0, instance:com.demo.test.Demo@1a968a59]" name="cleanUpSuites" is-config="true" duration-ms="580" started-at="2019-03-16T06:28:23Z" finished-at="2019-03-16T06:28:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpSuites -->
+      </class> <!-- com.demo.test.Demo -->
+    </test> <!-- Test Name : My TestNG practices -->
+  </suite> <!-- Suite name : Smoke -->
+</testng-results>

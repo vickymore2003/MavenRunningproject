@@ -1,0 +1,16 @@
+{
+	"Registration": {
+		"f_name": "Sahil",
+		"l_name": "test",
+		"mob_no": "1254",
+		"login": {
+			"username": "opensourcecms",
+			"password": "opensourcecms"
+		}
+	},
+	"Payment": {
+		"cc_type": "visa",
+		"cc_number": "123654789",
+		"cvv": "456"
+	}
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite name : Smoke">
+	<test name="Test Name : My TestNG practices">
+		<parameter name="envName" value="UAT"></parameter>
+		<parameter name="browserName" value="Chrome"></parameter>
+		<classes>
+			<class name="com.demo.test.Demo"></class>
+		</classes>
+	</test>
+</suite>
